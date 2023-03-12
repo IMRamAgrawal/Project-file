@@ -1,0 +1,132 @@
+/* body{
+    /* text-align: center; */
+    
+
+.navigation{
+    margin-left: 4.5vw;
+    background-color: rgb(175, 175, 239);
+    /* Height: 10vw; */
+    width: 90vw;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+hr{
+    width:90vw;
+    Margin-left:4.5vw 
+}
+.navigation2{
+    padding-top: 15px;
+    padding-right: 0.5vw;
+}
+nav ul{
+    display:inline-flex;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.navigation1 nav ul li a {
+    text-decoration: none;
+    padding: 2vw;
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+input{
+    height: 20px;
+}
+button{
+    padding-bottom: 9px;
+    height:22px;
+}
+button:hover{
+    color:brown;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cont{
+    margin-left:4.5vw;
+    width:90vw;
+    /* height:20vw; */
+    /* padding-left: 1vw; */
+    position: relative;
+    
+    /* background-size: cover; */
+    /* background-color: brown; */
+    display:inline-flex;
+}
+.cont::after{
+    content:"";
+    background-image:url(2.png);
+    position: absolute;
+    width:90vw;
+    height:20vw;
+    opacity: 0.15;
+}
+.content{
+    margin-left:4.5vw;
+    width:90vw;
+   display: inline-flex;
+   position: relative;
+}
+.content::after{
+    content:"";
+    background-image:url(2.png);
+    position: absolute;
+    width:90vw;
+    height:20vw;
+    opacity: 0.15;
+}
+
+.img1{
+    width:300px;
+    padding:30px;
+    border-radius: 500vw;
+}
+.img2{
+    width:300px;
+    padding:5px;
+    border-radius: 5vw;
+}
+.content1{
+    display:flex;
+    display: table-column;
+}
+.content2{
+   padding-top:1vw;
+}
+footer{
+    width:90vw;
+    margin:auto;
+    background-color:rgb(103, 103, 235);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+@media (max-width:700px){
+    .img1{
+        display: none;
+    }
+}
+@media (max-width:560px){
+   .content{
+    display:flex;
+    flex-direction: column;
+   }
+   .navigation{
+    display: flex;
+    flex-direction: column;
+    }
+    .navigation2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+ }
+
+
+
+}
